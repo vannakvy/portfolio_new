@@ -48,6 +48,42 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Devops</ListTitle>
+          <ListParagraph>
+            Docker <br />
+            Github, Jenkins, Kubernete
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>IoT</ListTitle>
+          <ListParagraph>
+            Raspberry Pi, Arduino, Microbit, ESP <br />
+            
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Electrical</ListTitle>
+          <ListParagraph>
+            System <br />
+            Electrical
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
     </List>
     <SectionDivider colorAlt />
   </Section>

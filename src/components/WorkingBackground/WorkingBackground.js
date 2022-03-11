@@ -1,12 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText, SectionTitleTwo } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
-const Timeline = () => {
+const WorkingBackground = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
@@ -44,11 +44,11 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
-      <SectionText>
+      <SectionTitleTwo>Working Experience</SectionTitleTwo>
+      {/* <SectionText>
       The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-      </SectionText>
-      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      </SectionText> */}
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -97,8 +97,8 @@ const Timeline = () => {
             </CarouselMobileScrollNode>
           ))}
         </>
-      </CarouselContainer> */}
-      {/* <CarouselButtons>
+      </CarouselContainer>
+      <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
             <CarouselButton
@@ -111,10 +111,10 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons> */}
-      {/* <SectionDivider /> */}
+      </CarouselButtons>
+      <SectionDivider />
     </Section>
   );
 };
 
-export default Timeline;
+export default WorkingBackground;

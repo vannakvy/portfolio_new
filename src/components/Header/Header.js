@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { AiFillGithub, AiFillYoutube, AiFillLinkedin } from 'react-icons/ai';
+import { DiCssdeck,DiJsBadge } from 'react-icons/di';
+import {RiAccountPinCircleFill} from 'react-icons/ri';
+// import {DiJsBadge} from 'react-icons/bs';
+
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -9,8 +12,8 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+        <a style={{ display: 'flex', alignItems: 'center', color:"white",marginBottom:"30px" }}>
+          <RiAccountPinCircleFill size="3rem" /> <span style={{marginLeft:"10px",fontSize:"3rem"}}>Portfolio</span>
         </a>
       </Link>
     </Div1>
@@ -30,6 +33,11 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>        
+      <li>
+        <Link href="#about">
+          <NavLink>Get CV</NavLink>
+        </Link>
+      </li>   
     </Div2>
       <Div3>
         <SocialIcons href="https://google.com">
@@ -39,7 +47,7 @@ const Header = () =>  (
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://google.com">
-          <AiFillInstagram size="3rem"/>
+          <AiFillYoutube size="3rem" color='red'/>
         </SocialIcons>
       </Div3>
     </Container>

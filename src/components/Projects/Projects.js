@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import {Button, BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-
+import {SiSymantec} from 'react-icons/si';
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
@@ -14,22 +14,23 @@ const Projects = () => (
           <BlogCard key={i}>
           <Img src={p.image} />
             <TitleContent>
-              <HeaderThree title>{p.title}</HeaderThree>
-              <Hr />
+              <HeaderThree title><SiSymantec/> {p.title}</HeaderThree>
+              {/* <Hr /> */}
             </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
+            <CardInfo className="cartleContent>d-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
-              <TagList>
+              <Button>See Detail</Button>
+              {/* <TitleContent>Stack</TitleContent> */}
+              {/* <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
                 })}
-              </TagList>
+              </TagList> */}
             </div>
-            <UtilityList>
+            {/* <UtilityList>
               <ExternalLinks href={p.visit}>Code</ExternalLinks>
               <ExternalLinks href={p.source}>Source</ExternalLinks>
-            </UtilityList>
+            </UtilityList> */}
           </BlogCard>
         );
       })}

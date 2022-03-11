@@ -35,6 +35,7 @@ export const Div2 = styled.div`
   }
 `;
 export const Div3 = styled.div`
+  margin-bottom: 25px;
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   justify-content: space-around;
@@ -113,10 +114,12 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
+// color: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9); 
 border-radius: 50px;
+
   padding: 8px;
 &:hover {
-    background-color: #212d45;
+    background-color: linear-gradient(to right, #c94b4b, #4b134f) !important;
     transform: scale(1.2);
     cursor: pointer;
     
