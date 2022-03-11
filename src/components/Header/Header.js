@@ -47,7 +47,7 @@ const Header = () =>  (
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
         <SocialIcons href="https://google.com">
-          <AiFillYoutube size="3rem" color='red'/>
+          <AiFillYoutube size="3rem"/>
         </SocialIcons>
       </Div3>
     </Container>
