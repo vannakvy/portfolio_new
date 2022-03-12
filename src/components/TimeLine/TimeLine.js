@@ -46,7 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        I was born in a small village called Thnoal Bandoy, in the province of Siem Reap, Cambodia. there was a lot of struggle during my childhoot as I had to live without my mom.
+        My mom had passed away since I was three. My family was very poor. What I always keep in my mind is only education that can change my life.
+        I kept fighting for education. These how I become who I am today. 
       </SectionText>
       {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

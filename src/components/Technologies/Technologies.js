@@ -8,8 +8,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      Throughout my career and learning, I have worked with a wide variety of technologies. Those include Frontend , Backend, Deployment and more.
     </SectionText>
     <List>
       <ListItem>
@@ -20,7 +19,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            HTML, CSS, Javascript, and React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,7 +31,8 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            NodeJs,Python, mongodb, and Firebase <br/>
+            REST and Graphql API
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,7 +44,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            tools like Figma and Adobe XD
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,8 +55,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Devops</ListTitle>
           <ListParagraph>
-            Docker <br />
-            Github, Jenkins, Kubernete
+            Experience with <br />
+            Docker, Github,Nginx, Jenkins, Kubernete
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -67,7 +67,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>IoT</ListTitle>
           <ListParagraph>
-            Raspberry Pi, Arduino, Microbit, ESP <br />
+            Experience with <br />
+            Raspberry Pi, Arduino, Microbit, ESP ,variety of sensors
             
           </ListParagraph>
         </ListContainer>
@@ -77,10 +78,22 @@ const Technologies = () =>  (
           <DiZend size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Electrical</ListTitle>
+          <ListTitle>Mobile App</ListTitle>
           <ListParagraph>
-            System <br />
-            Electrical
+            Experience with <br />
+            Flutter
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiZend size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Teaching</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Scratch Programming , and Thunkable
           </ListParagraph>
         </ListContainer>
       </ListItem>

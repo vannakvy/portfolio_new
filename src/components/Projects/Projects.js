@@ -17,6 +17,8 @@ const Projects = () => (
               <HeaderThree title><SiSymantec/> {p.title}</HeaderThree>
               {/* <Hr /> */}
             </TitleContent>
+            {/* <img src={}/> */}
+            
             <CardInfo className="cartleContent>d-info">{p.description}</CardInfo>
             <div>
               <Button>See Detail</Button>
